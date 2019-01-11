@@ -10,10 +10,9 @@ var animal = 'cat';
 }
 
 function add2(n) {
-  return n + two
-
-  // Feel free to move things around!
-  const two = 2
+  var two= 2
+  return n + two;
+const two = 2
 }
 
 var funkyFunction = function() {
